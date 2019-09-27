@@ -1,0 +1,26 @@
+package Lesson13Abstract;
+
+public  class vishal extends Vikas {
+
+	public static void main(String[] args) {
+		
+		
+		vishal obj = new vishal();
+		obj.move();
+		obj.calling();
+		obj.dance();
+		
+		Mahesh ojb1 = new vishal();
+		ojb1.calling();
+		ojb1.move();
+		ojb1.dance();
+
+	}
+	public  void move()
+	{
+		
+		System.out.println("Moving...");
+	}
+	
+	
+}

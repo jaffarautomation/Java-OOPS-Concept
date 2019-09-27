@@ -1,0 +1,16 @@
+package lesson6;
+
+public class myclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Final obj=new Final();
+		
+		obj.no=20;
+		
+		obj.show();
+
+	}
+
+}

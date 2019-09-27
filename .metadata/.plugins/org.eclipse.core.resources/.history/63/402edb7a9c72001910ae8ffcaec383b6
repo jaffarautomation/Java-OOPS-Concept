@@ -1,0 +1,15 @@
+package LessonCloneofobject;
+
+public class ShallowCloning {
+	
+	public static void main(String[] args) {
+	
+		
+		Extraclass r =new Extraclass();
+		System.out.println(r);
+	}
+	
+	
+	
+
+}

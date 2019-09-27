@@ -1,0 +1,47 @@
+package Lesson13Abstract;
+
+public  class vishal extends Vikas {
+
+	public static void main(String[] args) {
+		
+		
+		vishal obj = new vishal();
+		obj.move();
+		obj.calling();
+		obj.dance();
+		
+		
+		
+		
+	//	Mahesh ojb1 = new vishal();
+		//ojb1.calling();
+	//	ojb1.dance();
+		
+		
+	//	Vikas ojb2 = new vishal();
+		//ojb2.move();
+	  // as here the reference of vikas class but object is of vishal class.
+	// so you can call the method which are in vikas class but not of vishal class.
+		// such as move1 as it is defined only in vishal class.
+
+	}
+	public  void move()
+	{
+		
+		System.out.println("Moving...");
+	}
+	
+	public  void move1()
+	{
+		
+		System.out.println("Moving2...");
+	}
+	
+	
+	vishal()
+	{
+		
+		System.out.println("In cont vishal ");
+	}
+	
+}

@@ -1,0 +1,18 @@
+package Lesson7Inheritance;
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		VeryAdvancecalculator resultadd = new VeryAdvancecalculator();
+		int result1= resultadd.addition(5, 4);
+		int result2= resultadd.subtract(500, 455);
+		int result3= resultadd.multiply(5, 45);
+		
+		System.out.println(result1);
+		System.out.println(result2);
+		System.out.println(result3);
+	}
+
+}

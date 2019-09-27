@@ -1,0 +1,25 @@
+package lesson4;
+
+public class ADD {
+
+
+		public static int add (int a, int b)
+		{
+			
+			return (a+b);
+	   }
+		
+		public static  double add (double a, double b)
+		{
+			
+			return (a+b);
+		}
+	
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			
+			System.out.println(ADD.add(3, 4));
+
+		}
+
+}

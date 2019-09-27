@@ -1,0 +1,15 @@
+package Lesson2;
+
+public class division {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		 double	X=10;
+			douuble Y=50;
+			double  Answer = X + Y;
+			System.out.println("Answer = "+ Answer);
+			
+	}
+
+}

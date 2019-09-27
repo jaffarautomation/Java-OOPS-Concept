@@ -1,0 +1,23 @@
+package Lesson3;
+
+public class Constructor {
+
+	int lenght;
+	int breath;
+	int width;
+	
+	public int getvolume()
+	{
+		
+		return(lenght* breath*width) ;
+		
+	}
+
+	 Constructor() // constructor without parmeter
+	 {
+		 
+		 System.out.println("youtube");
+	 }
+	
+
+}

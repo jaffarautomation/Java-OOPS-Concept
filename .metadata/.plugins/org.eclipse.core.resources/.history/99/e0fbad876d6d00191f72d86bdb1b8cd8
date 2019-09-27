@@ -1,0 +1,21 @@
+package Lesson15FinalKeyword;
+
+public class FinalMethods2 {
+
+	
+	void show()
+	{
+		
+		   System.out.println("override");
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		FinalMethods2 t = new FinalMethods2();
+		t.show();
+		
+
+	}
+
+}

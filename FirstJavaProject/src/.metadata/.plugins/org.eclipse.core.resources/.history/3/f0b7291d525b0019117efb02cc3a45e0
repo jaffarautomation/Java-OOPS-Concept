@@ -1,0 +1,24 @@
+package Lesson1;
+
+public class MyClass {
+	/*
+	 *  My First Program 
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int My_variable = 10;
+		float my_decimal = (float)4.5;
+		char My_char = 
+		boolean Is_true = true;
+		
+		
+		System.out.println("Java");
+		System.out.println("My_variable");
+		System.out.println("My_char");
+		System.out.println("Is_true");
+
+	}
+
+}

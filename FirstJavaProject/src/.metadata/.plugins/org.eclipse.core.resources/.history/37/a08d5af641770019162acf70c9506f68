@@ -1,0 +1,34 @@
+package Mutithreading;
+
+public class ClassA {
+
+	
+	
+	
+	public void show()
+	{		
+		for (int i=0;i<=5;i++)
+		{
+			
+			System.out.println("HI");
+		}
+	}
+	
+	public void show1()
+	{		
+		for (int i=0;i<=5;i++)
+		{
+			
+			System.out.println("HI");
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ClassA r = new ClassA();
+		r.show();
+		r.show1();
+
+	}
+
+}

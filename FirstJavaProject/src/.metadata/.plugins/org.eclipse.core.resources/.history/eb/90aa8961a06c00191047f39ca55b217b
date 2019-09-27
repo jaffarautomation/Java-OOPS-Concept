@@ -1,0 +1,25 @@
+package Lesson14Interface;
+
+public interface DummyMobile {
+
+public abstract	void design ();
+	 void design2();
+	
+	// by default the Access modifiers in method of interface is public abstract.
+	// You can write else it would take by default
+	 // in interface you cannot provide concrete method i.e method with body
+	 
+	 
+	 
+	 
+	 
+	/*
+	 void design5()
+	 {
+		 
+		 
+	 }
+	 */
+	 // As above method will give error because abstrat method dont have body.
+	
+}

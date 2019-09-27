@@ -1,0 +1,15 @@
+package Lesson7Inheritance;
+
+public class Myclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Calculator resultadd = new Calculator();
+		int result1= resultadd.addition(5, 4);
+		
+		System.out.println(result1);
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package Lesson2;
+
+public class Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      int[] myarray = {100,200,300,400};
+      
+      System.out.println(myarray[2]);
+	}
+
+}

@@ -1,0 +1,52 @@
+package methodOverriding;
+
+public class Class2 extends Class1 {
+
+	public void display()
+	{
+		
+		System.out.println("In class2 display method");
+	}
+	
+	public void display1()
+	{
+		
+		System.out.println("In class2 display method");
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Class1 og = new Class2();
+		og.display();
+		
+		og =new Class3();
+		og.display();
+		
+	// in above we have created the object of child class and assign to reference of parent class
+	// since its reference is to parent class it will call only those method which is in parent class
+	//Also method display() is over ridden then it will called the over ridden method from child class
+		
+		og.display3();
+		// In above we can call the display3 method as it is created in parent class
+		
+		//og.display1();
+		// error, because display1 is not present in parent class, as reference is created for parent class
+		
+		
+		Class2 r = new Class2();
+		r.display();
+		
+		Class1 t = new Class1();
+		t.display();
+		
+		
+		
+		
+		
+		
+	}
+}
+

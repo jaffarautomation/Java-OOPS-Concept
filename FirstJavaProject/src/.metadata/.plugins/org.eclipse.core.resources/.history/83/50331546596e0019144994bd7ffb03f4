@@ -1,0 +1,14 @@
+package Lesson16NewInterface;
+
+public class classA implements I {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		classA t = new classA();
+		t.show1();
+
+	}
+
+	
+}

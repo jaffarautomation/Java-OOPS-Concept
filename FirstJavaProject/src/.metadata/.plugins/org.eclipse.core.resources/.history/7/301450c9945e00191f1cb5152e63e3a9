@@ -1,0 +1,26 @@
+package Lesson3;
+
+public class Method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 24 ;
+		String result = age_method(a);
+		System.out.println(result);
+		
+
+	}
+
+	public static  String age_method(int age)
+	
+	{
+		
+		if (age >= 20)
+		return "adult";
+		
+		else 
+			return "child";
+		
+		
+	}
+}

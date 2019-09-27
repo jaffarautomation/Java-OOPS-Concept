@@ -1,0 +1,31 @@
+package Mutithreading;
+
+public class ClassA {
+
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ClassB r =new ClassB();
+		ClassC y = new ClassC();
+		
+		
+		r.start();
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		y.start();
+	//here we are starting the thread by calling the start methods.
+// since the output will be like 2 hello at same time, or 2 hi at same time,
+// this happens because both the method r.start and y .start , started at same time.		
+		
+		//r.show();
+		//y.show1();
+
+	}
+
+}

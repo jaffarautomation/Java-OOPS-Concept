@@ -1,0 +1,14 @@
+package Lesson13Abstract;
+
+abstract class Mahesh {
+
+	public  void calling(){
+		
+		System.out.println("Calling...");
+	}
+	
+	public abstract void dance();
+	
+	public abstract void move();	
+
+}

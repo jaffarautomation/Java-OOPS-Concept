@@ -1,0 +1,25 @@
+package lesson5Static;
+
+
+
+public class Emp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		emp navin=new emp();
+		navin.eid =45;
+		navin.salary=4000;
+		navin.ceo="Mahesh";
+		
+		emp rahul=new emp();
+		rahul.salary=5000;
+		rahul.eid=46;
+		rahul.ceo="Mahesh";
+		
+		navin.show();
+		rahul.show();
+
+	}
+
+}

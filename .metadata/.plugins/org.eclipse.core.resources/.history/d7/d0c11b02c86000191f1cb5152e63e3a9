@@ -1,0 +1,9 @@
+package Lesson3;
+
+public class StudentClass {
+	
+	int id;
+	int age;
+	String name;
+
+}

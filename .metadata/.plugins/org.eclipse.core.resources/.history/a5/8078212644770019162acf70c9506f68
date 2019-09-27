@@ -1,0 +1,40 @@
+package Mutithreading;
+
+public class ClassA {
+
+	
+	
+	
+	public void show()
+	{		
+		for (int i=0;i<=5;i++)
+		{
+			
+			System.out.println("HI");
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void show1()
+	{		
+		for (int i=0;i<=5;i++)
+		{
+			
+			System.out.println("Hello");
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ClassA r = new ClassA();
+		r.show();
+		r.show1();
+
+	}
+
+}

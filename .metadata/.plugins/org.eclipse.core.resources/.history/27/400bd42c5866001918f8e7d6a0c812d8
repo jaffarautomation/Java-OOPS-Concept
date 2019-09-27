@@ -1,0 +1,22 @@
+package Lesson8InhSuper;
+
+public class ClassB extends ClassA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ClassB obj = new ClassB(5);
+	}
+	
+	ClassB()
+	{	
+		System.out.println("Constructor of B class");	
+	}
+	
+	
+	ClassB(int a)
+	{
+		System.out.println("parameter constructor of class B");	
+	}
+
+}

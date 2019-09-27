@@ -1,0 +1,12 @@
+package lesson4;
+
+public class calling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a= ADD.add(6, 9);
+		System.out.println(a);
+	}
+
+}

@@ -1,0 +1,23 @@
+package ExceptionHandling2;
+
+import java.io.IOException;
+
+public class Class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Throw r = new Throw();
+		
+		try{
+		r.show();
+		}
+		
+		catch ( IOException e)
+		{
+			
+			System.out.println("Handle the exceptions");
+		}
+	}
+
+}

@@ -1,0 +1,29 @@
+package lesson5Static;
+
+public class employee {
+		
+			
+		int eid;
+		int salary;
+		static String ceo;
+		
+		
+		static{
+			
+			ceo="larry";
+		}
+		
+		public void show()
+		{
+			
+			System.out.println(eid+ ":" + salary + ": " + ceo);
+		}
+
+		employee()
+		{
+			
+			System.out.println("Cons");
+		}
+
+
+}

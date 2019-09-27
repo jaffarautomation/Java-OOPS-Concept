@@ -1,0 +1,17 @@
+package Lesson16NewInterface;
+
+public class classA  implements  J {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		classA t = new classA();
+		
+
+	}
+	
+// if i implement both I and J it will give an error because java will get confused which show method to called
+//from Interface I or J.	
+
+	
+}

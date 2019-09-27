@@ -1,0 +1,21 @@
+package Lesson13Abstract;
+
+public abstract  class Vikas extends Mahesh {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void dance()
+	{
+		System.out.println("dancing...");
+
+	}
+		
+		public abstract void move();	
+
+		// if you extends the abstract class then you need to defined the abstract method
+		//otherwise you need to declare the class as abstract.
+
+}

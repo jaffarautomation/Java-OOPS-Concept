@@ -1,0 +1,46 @@
+package Lesson11Staticcontinue;
+
+public class Staticclass {
+	
+	
+	static int num1;
+	static int num2;
+	
+	static void method1 ()
+			{
+				num1=3;
+				num2 =2;
+				
+				System.out.println(num1+num2);
+				
+			}
+	
+	static void method2 ()
+	{
+		
+		num1=3;
+		num2 = 3;
+		System.out.println(num1+num2);
+	}
+	
+  public void method3 ()
+  {
+	  // method1(23,3);
+	  System.out.println("In method 3");
+	  
+  }
+  
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Staticclass obj= new Staticclass();
+		
+		//obj.method3();
+		//Staticclass.method1(4, 4);
+		
+		method1();
+		method2();
+
+	}
+
+}

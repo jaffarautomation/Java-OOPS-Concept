@@ -1,0 +1,37 @@
+package lesson5Static;
+
+
+
+class emp{
+	
+	int eid;
+	int salary ;
+	String ceo;
+	
+	public void show()
+	{
+		
+		System.out.println(eid+":"+ salary+":"+ceo);
+	}
+	
+}
+
+
+public class Emp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		emp navin=new emp();
+		navin.eid =45;
+		navin.salary=4000;
+		navin.ceo="Mahesh";
+		
+		emp rahul=new emp();
+		rahul.salary=5000;
+		rahul.eid=46;
+		rahul.ceo="Mahesh";
+
+	}
+
+}

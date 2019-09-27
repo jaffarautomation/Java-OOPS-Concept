@@ -1,0 +1,33 @@
+package Lesson11Staticcontinue;
+
+public class StaticBlock {
+	
+	static int num1;
+	
+	static {
+		
+		num1 =56;
+		
+		System.out.println("Static block 1");
+		System.out.println(num1);
+	}
+	
+static {
+		
+		num1 =45;
+		System.out.println("Static block 2");
+		System.out.println(num1);
+	}
+	
+	
+
+	  
+	public static void main(String[] args)
+	{
+		
+		
+		System.out.println(num1);
+		
+	}
+
+}

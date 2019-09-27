@@ -1,0 +1,15 @@
+package Lesson3;
+
+public class Class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		StudentClass mark = new StudentClass();  // mark -> object or instance
+		mark.age =34;
+		mark.name="Mark";
+		mark.id=343;
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package Lesson9InhSuper;
+
+public class Class3 extends ClassB {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Class3 ojb = new Class3();
+		ojb.show();
+		ojb.show();
+		ojb.show3(25);
+		
+		
+
+	}
+	
+	public void show()
+	{
+		super.show();
+		
+		System.out.println("Class 3 hai");
+	}
+
+}

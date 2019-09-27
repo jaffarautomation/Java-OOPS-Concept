@@ -1,0 +1,9 @@
+package Lesson14Interface;
+
+public interface DummyMobile2 {
+	
+	void design3();
+	void design4();
+	void design2();
+
+}

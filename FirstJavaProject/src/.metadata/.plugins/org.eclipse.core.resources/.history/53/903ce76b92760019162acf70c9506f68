@@ -1,0 +1,23 @@
+package Lesson17defaultInterface;
+
+public class classA extends classB implements J, I {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		classA t = new classA();
+		t.show1();
+		
+		
+		
+
+	}
+	public  void show1()
+	{
+		System.out.println("ClassA");
+	}
+// if i implement both I and J it will give an error because java will get confused which show method to called
+//from Interface I or J.	
+
+	
+}

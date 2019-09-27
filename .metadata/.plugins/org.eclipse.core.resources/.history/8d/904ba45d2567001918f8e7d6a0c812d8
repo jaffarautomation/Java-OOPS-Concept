@@ -1,0 +1,21 @@
+package Lesson10thiskeyword;
+
+public class Myclass {
+	
+	int i;
+	int j;
+	
+	Myclass(int m,int n)
+	{
+		i=m;
+		j=n;
+		
+	}
+	public void show()
+	{
+		
+		System.out.println(i);
+		System.out.println(j);
+	}
+
+}

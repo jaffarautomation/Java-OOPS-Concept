@@ -1,0 +1,40 @@
+package Lesson9InhSuper;
+
+public class ClassB extends ClassA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ClassB obj = new ClassB();
+		obj.show();
+		obj.show1();
+
+	}
+	
+	int i =15;
+	// super keyword is used to call int i of class A i.e super class, unless stated it will call the int i of sub class , i.e class B
+	public void show1 ()
+	{
+		
+		
+		System.out.println(super.i);
+	}
+	
+
+	// here also if we don't provide the super keyword it will call the method Show of class B i.e sub Class
+	/*
+	public void show()
+	{
+		
+		System.out.println("Class B hai ");
+		
+	} */
+	
+	public void show()
+	{
+		super.show();
+		System.out.println("Class B hai ");
+		
+	}
+
+}

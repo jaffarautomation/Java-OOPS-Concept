@@ -1,0 +1,23 @@
+package L1ToString;
+
+public class Tostring extends Object {
+	
+	int rollno ;
+	String name;
+	
+	Tostring(int a, String b)
+	{
+            this.rollno=a;
+            this.name=b;
+	
+	}
+	
+	public String toString()
+	{
+		return rollno + ": " + name;
+	}
+	
+	//Every class by default extends the object class.
+ 
+
+}

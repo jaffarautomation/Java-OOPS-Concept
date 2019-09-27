@@ -1,0 +1,20 @@
+package Lesson13Abstract;
+
+public class Allclass  extends vishal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Allclass r = new Allclass();
+		
+		// now this class can inherit all the method of class vishal.
+	}
+
+	Allclass()
+	{
+		
+		System.out.println("");
+	}
+	
+	
+}

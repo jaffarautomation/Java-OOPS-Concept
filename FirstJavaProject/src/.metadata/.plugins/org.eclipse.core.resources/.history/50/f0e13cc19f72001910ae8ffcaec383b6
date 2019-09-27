@@ -1,0 +1,27 @@
+package LessonCloneofobject;
+
+public class ShallowCloning {
+	
+	public static void main(String[] args) {
+	
+		
+		Extraclass r =new Extraclass();
+		r.x=3;
+		r.y=5;
+		
+		System.out.println(r.toString());
+		
+		Extraclass r1=r;
+		
+		r1.x=3;
+		r1.y=7;
+		System.out.println(r1.toString());	//expected values 3 and 7
+		System.out.println(r.toString());	// expected values 3 and 5
+		
+		
+	}
+	
+	
+	
+
+}

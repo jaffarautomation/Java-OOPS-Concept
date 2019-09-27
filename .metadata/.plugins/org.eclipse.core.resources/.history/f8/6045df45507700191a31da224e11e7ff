@@ -1,0 +1,40 @@
+package MT2;
+
+public class ClassA {
+
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Runnable r =new ClassB();
+		Runnable y = new ClassC();
+		
+		Thread t1 = new Thread(r);
+		Thread t2 = new Thread();
+		
+		t1.start();
+		
+		
+		/*
+		r.start();
+		try {
+			Thread.sleep(10);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		y.start(); */
+		
+		//Uncomment the above
+	// the above methods throws the error :	Because now we have implement the interface
+	// and interface does not have the method called start.	
+		
+		
+	
+		//r.show();
+		//y.show1();
+
+	}
+
+}

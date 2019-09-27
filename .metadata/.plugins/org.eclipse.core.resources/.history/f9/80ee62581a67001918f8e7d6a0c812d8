@@ -1,0 +1,29 @@
+package Lesson9InhSuper;
+
+public class ClassB extends ClassA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ClassB obj = new ClassB();
+		obj.show();
+		obj.show1();
+
+	}
+	
+	int i =15;
+	public void show1 ()
+	{
+		
+		
+		System.out.println(super.i);
+	}
+	
+	public void show()
+	{
+		super.show();
+		System.out.println("Class B hai ");
+		
+	}
+
+}

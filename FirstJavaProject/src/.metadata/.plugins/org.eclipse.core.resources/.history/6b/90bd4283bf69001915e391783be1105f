@@ -1,0 +1,28 @@
+package methodOverriding;
+
+public class Class2 extends Class1 {
+
+	public void display()
+	{
+		
+		System.out.println("In class2 display method");
+	}
+	
+	public void display1()
+	{
+		
+		System.out.println("In class2 display method");
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Class1 og = new Class2();
+		og.display();
+		
+		
+	}
+}
+
