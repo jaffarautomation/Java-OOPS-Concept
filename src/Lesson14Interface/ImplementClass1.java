@@ -10,6 +10,7 @@ public class ImplementClass1 implements DummyMobile,DummyMobile2 {
 		// by creating the object of ImplementClass1 and creating the reference of 
 		//		DummyMobile it will call only DummyMobile methods. not from other interface
 		
+	
 		
 		DummyMobile2 r = new ImplementClass1();
 		r.design3();
