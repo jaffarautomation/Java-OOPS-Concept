@@ -20,7 +20,7 @@ public class A {
 	}
 	
 	
-	// this is local block and will initialize withevery object
+	// this is local block and will initialize with every object
 	{
 		
 		
@@ -32,6 +32,16 @@ public class A {
 	}
 	
 	
+	//This will be called after the local block is get called
+	A()
+	{
+		
+		
+		 u=4;
+		 System.out.println("In constructor");
+		 System.out.println(u);
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -39,6 +49,10 @@ public class A {
 		
 // Creating object 1		
  A object =	new A();
+ 
+ //It will print value of 4.
+ System.out.println(object.u);
+ 
  object.u=34;
  System.out.println(object.u);
  

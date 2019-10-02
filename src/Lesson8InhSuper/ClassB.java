@@ -5,7 +5,8 @@ public class ClassB extends ClassA {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ClassB obj = new ClassB();
+		ClassB obj = new ClassB(5,6);
+		
 		
 		obj.show();
 		obj.show1();
@@ -17,8 +18,8 @@ public class ClassB extends ClassA {
 		System.out.println("Constructor of B class");	
 	}
 	
-	//By defualt there is super method, which is called first ad which call the defualt constructor of super class.
-	// if classA by defualt constructor is private then, you need to call the other const expicilty 
+	//By default there is super method, which is called first ad which call the default constructor of super class.
+	// if classA by default constructor is private then, you need to call the other const expicilty 
 	
 	
 	
@@ -30,9 +31,27 @@ public class ClassB extends ClassA {
 		System.out.println("parameter constructor of class B");	
 	}
 	
+	
+	
+	ClassB(int a, int r)
+	{
+		
+		
+		super(5);
+		System.out.println("parameter with 2 constructor of class B");	
+	}
+	
 	void show()
 	{
 		
+	}
+	
+	
+	public void show8(int y)
+	{
+	
+	         
+		System.out.println("Class 3 hai");
 	}
 
 }

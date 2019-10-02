@@ -63,5 +63,12 @@ public void show5 (int j)
 }
 
 
+public void show8(int y)
+{
+
+         
+	System.out.println("Class B hai show 8");
+}
+
 
 }

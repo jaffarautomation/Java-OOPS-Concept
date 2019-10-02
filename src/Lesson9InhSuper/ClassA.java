@@ -31,6 +31,15 @@ public class ClassA {
 	}
 	
 	
+public void show8(int j)
+	
+	{
+		
+		System.out.println(j);
+		System.out.println("In class A show8");
+	}
+	
+	
 	void g()
 	{}
 }
