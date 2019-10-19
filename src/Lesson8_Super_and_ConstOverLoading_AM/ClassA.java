@@ -1,4 +1,4 @@
-package Lesson8InhSuper;
+package Lesson8_Super_and_ConstOverLoading_AM;
 
 //This class in intended to show the constructor overloading.
 

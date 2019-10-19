@@ -1,4 +1,4 @@
-package Lesson9InhSuper;
+package Lesson9_Super_and_Upcasting_AM;
 
 public class ClassA {
 

@@ -1,6 +1,6 @@
 package Lesson7Inheritance;
 
-import Lesson8InhSuper.ClassA;
+import Lesson8_Super_and_ConstOverLoading_AM.ClassA;
 
 // Lesson 8 Class A is extended to learn access modifiers in inheritance i.e default and protected
 public class Dummy extends ClassA {

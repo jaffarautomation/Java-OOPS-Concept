@@ -1,4 +1,4 @@
-package Lesson8InhSuper;
+package Lesson8_Super_and_ConstOverLoading_AM;
 
 public class ClassB extends ClassA {
 
