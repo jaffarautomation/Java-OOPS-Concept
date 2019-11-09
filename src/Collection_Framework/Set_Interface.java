@@ -1,6 +1,8 @@
 package Collection_Framework;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -37,7 +39,7 @@ public class Set_Interface {
 		
 	}
 	
-	
+        
 	
 //In Treeset values will be store in sequences manner or more specifically in ascending order
 	Set<Integer> e = new TreeSet();
@@ -51,6 +53,16 @@ public class Set_Interface {
 	
 	System.out.println(e);
 	
-	}
+	
 
+	//Converting the set into list 
+List<Integer> t =new ArrayList<Integer>(r);
+    
+     System.out.println(t);
+   System.out.println(t.get(0));
+	}
+	
+	
+
+   
 }

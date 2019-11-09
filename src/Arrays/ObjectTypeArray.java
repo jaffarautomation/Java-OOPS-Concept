@@ -5,27 +5,29 @@ public class ObjectTypeArray {
 	
 	
 	public void marks(int x)
+	
 	{
-		
-		System.out.println("Marks of the student is : " + x);
-		
+	       System.out.println("Marks of the student is : " + x);
 	}
 	 
 	
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		
-
+		
 		//Declaring the or creating the array of object type i.e student.
 		//this array of object type can hold  10  references of student object class.
 		ObjectTypeArray[] studentarray = new ObjectTypeArray[10];
 		
+		System.out.println(studentarray);
+		
 		studentarray[0] = new ObjectTypeArray();
 		
 		studentarray[0].marks(100);
+		
+		//Below code will throw an array becuase array type is class type
+		//studentarray[1]= "Strinh";
 		
 		
 		//Below method will throw the array becuase no reference of student class object is present in 1 memory index of array
@@ -40,6 +42,9 @@ public class ObjectTypeArray {
 		
 		int i =studentarray.length;
 		System.out.println(i);
+		
+		
+		System.out.println(studentarray);
 	}
 
 }

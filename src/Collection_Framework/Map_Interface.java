@@ -38,6 +38,8 @@ public class Map_Interface {
 	//We will use advance for loop as given below
 	
 	
+	
+	
 	//We have to use KEYSET method which will return the set of string
 	Set<String> AllKeys = map.keySet();
 	
